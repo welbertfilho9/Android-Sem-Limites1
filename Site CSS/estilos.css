@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 4vw;
+    background-image: url("https://mcdn.wallpapersafari.com/medium/60/68/vY1obQ.jpg");
+    background-size: auto 100vh ;
+    font-family: arial black;
+    color: red;
+    height: 100vh;
+}
+
+@media (min-width: 1300px) {
+  body{
+    font-size: 2vw;
+  }
+}
+
+.legendas {
+  color: yellow;
+}
+
+header {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+
+#logocentral {
+  text-align: center;
+}
+
+#logo{
+  width: auto;
+  height: 25vh;
+}
+  
+.menu{
+   position: fixed;
+   background-image: url("https://img.elo7.com.br/product/zoom/28B28C9/fundo-fotografico-em-tecido-textura-vermelha-2-60x1-50-painel-sublimado.jpg");
+   background-size: auto 100vh;
+   width: 100vw;
+   top: 0;
+}
+  
+.menu ul {
+   display: flex;
+   justify-content: space-evenly;
+}
+  
+  .menu li {
+    list-style:none;
+  }
+
+  .menu a{
+    display: block;
+    padding: 2.5vh 3vw ;
+    color: #ffffff; 
+   text-decoration: none;
+  }
+ 
+ .menu a:hover {
+    text-decoration: underline;
+  }
+
+  #logocentral a, .legendas{
+    text-decoration: none;
+  }
+  
+  .site-subtitle,
+  .site-title{
+    text-align: center;
+  }
+  
+  .site-subtitle{
+    font-style: italic;
+    color:#00ff03
+  }
+
+  .site-title {
+    color: red;
+  }
+
+  .img-portfolio{
+    width: auto;
+    height: 30vh;
+  }
+
+
+ section h2{
+   padding-bottom: 7vh;
+ }
+
+ .legendas:hover{
+   text-decoration: underline;
+ }
+ 
+
+  
+  
+  
